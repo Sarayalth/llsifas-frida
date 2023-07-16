@@ -1,0 +1,10 @@
+{
+  "interaction": {
+    "type": "script",
+    "path": "libscript.so",
+    "parameters": {
+      "ServerEndpoint": "https://llsifas.catfolk.party",
+      "RsaPublicKey": "<RSAKeyValue><Modulus>1r6QjkBr1hIGrgq95ZEEDnXqCYa+81hvhejsGoUcfCZ/kkngBuUbq8/rqRfoFVEZOmDRG8DKrhtfFoWQyftqycCrQj8ELQeGCQJFtdXg+eljb3HDP8Zzzh+9YXJHNIswCYfMFYXlBHP90QniFfZqfERVSqK9V1uJU8EyxHMismU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>"
+    }
+  }
+}

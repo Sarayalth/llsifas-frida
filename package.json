@@ -1,0 +1,16 @@
+{
+    "name": "llsifas-frida",
+    "main": "index.ts",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "frida-compile -o libscript.so index.ts",
+        "watch": "frida-compile -o libscript.so -w index.ts"
+    },
+    "devDependencies": {
+        "@types/frida-gum": "^18.3.1",
+        "frida-compile": "^16.2.2",
+        "frida-il2cpp-bridge": "^0.8.5"
+    }
+}
